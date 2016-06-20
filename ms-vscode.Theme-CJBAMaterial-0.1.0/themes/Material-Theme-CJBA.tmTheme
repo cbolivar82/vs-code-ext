@@ -21,7 +21,7 @@
 				<key>caret</key>
 				<string>#FFCC00</string>
 				<key>foreground</key>
-				<string>#a9b3bc</string>
+				<string>#D4D4D4</string>
 				<key>invisibles</key>
 				<string>#33333</string>
 				<key>lineHighlight</key>
@@ -87,7 +87,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#808080</string>
+				<string>#565656</string>
 				<key>fontStyle</key>
         <string>italic</string>
 			</dict>
@@ -111,7 +111,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#03A9F4</string>
+				<string>#5268E2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Custom-Squere</string>
+			<key>scope</key>
+			<string>square.declaration.type.body.method.function.parameter.annotation.indexer, meta.block.brace.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC107</string>
 			</dict>
 		</dict>
 		<dict>
@@ -199,7 +210,7 @@
 			<key>name</key>
 			<string>Variables2</string>
 			<key>scope</key>
-			<string>declaration.body.field.variable, declaration.body.field.constant.numeric, string.object.declaration.body.field.double</string>
+			<string>declaration.body.field.variable, declaration.body.field.constant.numeric, string.object.declaration.body.field.double, , declaration.type.body.method.function.parameter.annotation.variable.indexer</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,6 +301,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#80CBC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support-custom</string>
+			<key>scope</key>
+			<string>tag.assign.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -831,7 +853,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#616161</string>
+				<string>#565656</string>
 			</dict>
 		</dict>
 		<dict>
@@ -908,7 +930,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C3E88D</string>
+				<string>#565656</string>
 			</dict>
 		</dict>
 		<dict>
