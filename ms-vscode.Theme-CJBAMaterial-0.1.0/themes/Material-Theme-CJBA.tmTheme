@@ -74,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#FFC66D</string>
 				<key>fontStyle</key>
         <string>italic</string>
 			</dict>
@@ -118,11 +118,23 @@
 			<key>name</key>
 			<string>Custom-Squere</string>
 			<key>scope</key>
-			<string>square.declaration.type.body.method.function.parameter.annotation.indexer, meta.block.brace.curly</string>
+			<string>array.literal.square, square.declaration.type.body.method.function.parameter.annotation.indexer</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC107</string>
+				<string>#CDDC39</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Custom-curly</string>
+			<key>scope</key>
+			<string>curly,  meta.block.brace.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF4886</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,6 +148,18 @@
 				<string>#ffffff</string>
 				<key>fontStyle</key>
         <string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket-Paren</string>
+			<key>scope</key>
+			<string>block.brace.paren.object.declaration.body.method.decl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A8AD76</string>
+
 			</dict>
 		</dict>
 		<dict>
@@ -168,7 +192,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#39ADB5</string>
+				<string>#9E9E9E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,7 +227,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#FFC66D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -223,11 +247,11 @@
 			<key>name</key>
 			<string>Variables3</string>
 			<key>scope</key>
-			<string>declaration.type.support.body.field.primitive</string>
+			<string>declaration.type.support.body.field.primitive, declaration.type.support.body.method.annotation.primitive</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ED7B09</string>
+				<string>#E08704</string>
 				<key>fontStyle</key>
         <string>italic</string>
 			</dict>
@@ -296,11 +320,11 @@
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string>support.function,keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
+			<string>support.function, declaration.body.field.operator.comparison, keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80CBC4</string>
+				<string>#9E9E9E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -333,7 +357,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F77669</string>
+				<string>#80CC83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -344,7 +368,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F77669</string>
+				<string>#80CC83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -362,22 +386,33 @@
 			<key>name</key>
 			<string>Boolean</string>
 			<key>scope</key>
-			<string>none</string>
+			<string>boolean, boolean.decl, field.constant.language.boolean</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F77669</string>
+				<string>#06D2BF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Constants</string>
 			<key>scope</key>
-			<string>constant</string>
+			<string>constant, field.constant.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F77669</string>
+				<string>#FF5A92</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constants-this</string>
+			<key>scope</key>
+			<string>constant.this</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#02B1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -400,6 +435,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CDDC39</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -617,7 +654,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F77669</string>
+				<string>#FFC821</string>
 			</dict>
 		</dict>
 		<dict>
