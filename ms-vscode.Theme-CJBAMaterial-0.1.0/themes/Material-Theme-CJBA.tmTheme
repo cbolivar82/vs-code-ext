@@ -116,6 +116,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Declaration-Key-New</string>
+			<key>scope</key>
+			<string>declaration.keyword.object.body.field.new.expr.others</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Declaration-Key-paren</string>
+			<key>scope</key>
+			<string>meta.brace.paren.object.declaration.body.field</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Custom-Squere</string>
 			<key>scope</key>
 			<string>array.literal.square, square.declaration.type.body.method.function.parameter.annotation.indexer</string>
