@@ -140,7 +140,7 @@
 			<key>name</key>
 			<string>Custom-Squere</string>
 			<key>scope</key>
-			<string>array.literal.square, square.declaration.type.body.method.function.parameter.annotation.indexer</string>
+			<string>array.literal.square, square.declaration.type.body.method.function.parameter.annotation.indexer, brace.object.array.literal.square.declaration.body.field</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
