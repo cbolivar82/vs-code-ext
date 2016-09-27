@@ -1,52 +1,47 @@
 {
-	"__metadata": {
-		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-		"id": "3397d2da-b0a8-4880-9e63-40d3109d5d14",
-		"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
-		"publisherDisplayName": "Microsoft",
-		"installCount": 12348,
-		"versions": [
-			{
-				"version": "0.1.0",
-				"date": "2015-11-18T02:24:11.383Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "0e372c89a245edd74e5b76aca10bb5cb3f63cb8eeaa860fe93898b1a6372957f"
-				},
-				"downloadUrl": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.0.1",
-				"date": "2015-11-15T00:39:27.793Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "0e372c89a245edd74e5b76aca10bb5cb3f63cb8eeaa860fe93898b1a6372957f"
-				},
-				"downloadUrl": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			}
-		]
-	},
-	"name": "Theme-CJBA-Material",
-	"displayName": "CJBA Material Theme",
-	"description": "CJBA Material themes for VS Code. Based on the TextMate themes.",
-	"version": "0.1.0",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.svg",
-	"contributes": {
-		"themes": [
-			{
-				"label": "CJBA Material",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Material-Theme-CJBA.tmTheme"
-			}
-		]
-	}
+    "__metadata": {
+        "galleryApiUrl": "-https://marketplace.visualstudio.com/_apis/public/gallery",
+        "id": "3397d2da-b0a8-4880-9e63-40d3109d5d14",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "publisherDisplayName": "Microsoft",
+        "installCount": 12348,
+        "versions": [{
+            "version": "0.1.0",
+            "date": "2015-11-18T02:24:11.383Z",
+            "downloadHeaders": {
+                "X-Market-Client-Id": "VSCode",
+                "X-Market-User-Id": "0e372c89a245edd74e5b76aca10bb5cb3f63cb8eeaa860fe93898b1a6372957f"
+            },
+            "downloadUrl": "-https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+            "manifestUrl": "-https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+        }, {
+            "version": "0.0.1",
+            "date": "2015-11-15T00:39:27.793Z",
+            "downloadHeaders": {
+                "X-Market-Client-Id": "VSCode",
+                "X-Market-User-Id": "0e372c89a245edd74e5b76aca10bb5cb3f63cb8eeaa860fe93898b1a6372957f"
+            },
+            "downloadUrl": "-https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+            "manifestUrl": "-https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/Theme-MaterialKit/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+        }]
+    },
+    "name": "Theme-CJBA-Material",
+    "displayName": "CJBA Material Theme",
+    "description": "CJBA Material themes for VS Code. Based on the TextMate themes.",
+    "version": "0.1.0",
+    "publisher": "-ms-vscode",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [{
+            "label": "CJBA Material",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Material-Theme-CJBA.tmTheme"
+        }]
+    }
 }
